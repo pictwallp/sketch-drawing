@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="content-language" content="en-us">
+<meta name="description" content="React Native Sketch Draw, Stroke thickness and color are changable while drawing. This component was written to fulfill the following use cases: Using that, you can draw a polyline from your gesture data with the following implementation:">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+   	
+    
+<title> React Native Sketch Draw for Kids | Sketch Art Drawing</title>
+<meta name="url" content="https://pictwallp.github.io/sketch-drawing/react-native-sketch-draw/" />
+<meta property="og:url" content="https://pictwallp.github.io/sketch-drawing/react-native-sketch-draw/">
+<meta property="article:author" content="Adam"> 
+<meta name="author" content="Adam">
+<meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+<link rel="canonical" href="https://pictwallp.github.io/sketch-drawing/react-native-sketch-draw/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://pictwallp.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="https://pictwallp.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://pictwallp.github.io/assets/css/theme.css">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": " React Native Sketch Draw for Kids",
+    "headline": " React Native Sketch Draw for Kids",
+    "alternativeHeadline": "",
+    "description": "🎨 react native sketch [unmaintained] ⚠️ note [12\/08\/2021]: There are 2 other projects in.",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/pictwallp.github.io\/sketch-drawing\/react-native-sketch-draw\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Adam"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Adam"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Adam"
+    },
+    "copyrightHolder" : "Sketch Art Drawing",
+    "copyrightYear" : "2022",
+    "dateCreated": "2022-01-08T17:50:45.00Z",
+    "datePublished": "2022-01-08T17:50:45.00Z",
+    "dateModified": "2022-01-08T17:50:45.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Sketch Art Drawing",
+        "url": "https://pictwallp.github.io/sketch-drawing/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/pictwallp.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": "https://pictwallp.github.io/logo.png",
+    "url" : "https:\/\/pictwallp.github.io\/sketch-drawing\/react-native-sketch-draw\/",
+    "wordCount" : "1668",
+    "genre" : [ "princess" ],
+    "keywords" : [ "React" , "Native" , "Sketch" , "Draw" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://pictwallp.github.io/sketch-drawing/"><span style="text-transform: capitalize;font-weight: bold;">Sketch Art Drawing</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://pictwallp.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://pictwallp.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://pictwallp.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://pictwallp.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://pictwallp.github.io/sketch-drawing/categories/beginner-sketch-art/" title="Beginner Sketch Art">Beginner Sketch Art</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://pictwallp.github.io/sketch-drawing/categories/sketch-art-with-pencil/" title="Sketch art with Pencil">Sketch art with Pencil</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://pictwallp.github.io/sketch-drawing/categories/beginner-sketch-art"/>Beginner Sketch Art</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline"> React Native Sketch Draw for Kids</h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Adam <span class="text-muted d-block mt-1">Jan 08, 2022 · <span class="reading-time">8 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://1.bp.blogspot.com/-PfAIAEwTveQ/XGaZ9q2E67I/AAAAAAAACck/Q6gBHr_yoNMhmoYAbxLcsUzLjNztx-evgCLcBGAs/w1200-h630-p-k-no-nu/canvas.png" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" alt=" React Native Sketch Draw for Kids"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>🎨 react native sketch [unmaintained] ⚠️ note [12/08/2021]: There are 2 other projects in.</p>
+
+
+<p><strong>React Native Sketch Draw</strong>, Stroke thickness and color are changable while drawing. This component was written to fulfill the following use cases: Using that, you can draw a polyline from your gesture data with the following implementation:</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=react%20native%20sketch%20draw" alt="A React Native component for drawing by touching on both" title="A React Native component for drawing by touching on both" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>A React Native component for drawing by touching on both From morioh.com</center>
+<p>And one wrapper component called paper which serves as a canvas on which these primitives are drawn. There are 2 other projects in. 👆 draw with your finger, and export an image from it. Stroke thickness and color are changable while drawing.</p>
+<h3 id="a-react-native-component-for-drawing-by-touching-on-both-from-sketchart-and-viral-category">A React Native component for drawing by touching on both from Sketchart and Viral Category</h3><div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '044478bac56eb613662b93ef204db084',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.creativeformatsnetwork.com/044478bac56eb613662b93ef204db084/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+<p>You can refer to the following link for more details. Can undo strokes one by one. React native component allowing a user to draw their signature with their finger in a realistic style. React native does not currently come with a canvas implementation. React native expo friendly screen drawing component based on html canvas for android &amp; ios. Basic touch based drawing for both ios and android.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/reactnativeexample.com/content/images/2019/01/react-native-sketch-canvas.gif" alt="A React Native component for drawing by touching on both" title="A React Native component for drawing by touching on both" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: reactnativeexample.com</center>
+<p>A React Native component for drawing by touching on both, Generally, its hidden when the user is not using it, but we can make it appear to the screen just by swiping our finger from the screen’s edge or either by touching the drawer icon. Sometimes, before you can start panning for. Can serialize path data to json. Follow this answer to receive notifications. A react native component for touch.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/camo.githubusercontent.com/82e1c0e548f01cbaeab76a0336ea23305fdcc326/68747470733a2f2f692e696d6775722e636f6d2f4f3076566444362e706e67" alt="GitHub terrylinla/reactnativesketchcanvas A React" title="GitHub terrylinla/reactnativesketchcanvas A React" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: github.com</center>
+<p>GitHub terrylinla/reactnativesketchcanvas A React, A react native component for touch based drawing supporting ios and android. There’s so much to discover and build, and it can be a fun journey. 🖍 change the stroke color and thickness on the fly. Add the canvas and initialize the context So it can sync other devices or someone else and continue to edit.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/s3.amazonaws.com/creativetim_bucket/products/143/original/opt_mkprn_thumbnail.jpg?1549302564" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, Answered aug 8 �19 at 11:40. In my app, after use selects an image from gallery, he needs to black out some part of it. Create real apps, not just drawings. There are 2 other projects in. This component was written to fulfill the following use cases:</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/opengraph.githubassets.com/c6cfea4b6fffc1b312ceba5624720b302d78ed8591e7702737f45eaea64fed95/LFMAKER/react-native-sketch-signature" alt="GitHub LFMAKER/reactnativesketchsignature A library" title="GitHub LFMAKER/reactnativesketchsignature A library" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: github.com</center>
+<p>GitHub LFMAKER/reactnativesketchsignature A library, React native sketch might be what you are looking for: Can serialize path data to json. Create real apps, not just drawings. In react studio you don�t draw a picture of a checkbox. You can refer to the following link for more details.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/Ah2qNbI40vE/maxresdefault.jpg" alt="Tadeu Zagallo React Native Architecture Overview YouTube" title="Tadeu Zagallo React Native Architecture Overview YouTube" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: youtube.com</center>
+<p>Tadeu Zagallo React Native Architecture Overview YouTube, Can serialize path data to json. Of course you can save as image. There’s so much to discover and build, and it can be a fun journey. React native expo friendly screen drawing component based on html canvas for android &amp; ios. Steps to draw a line on canvas.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/UDcaiaz.png" alt="terrylinla/reactnativesketchcanvas npm" title="terrylinla/reactnativesketchcanvas npm" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: npmjs.com</center>
+<p>terrylinla/reactnativesketchcanvas npm, React native expo friendly screen drawing component based on html canvas for android &amp; ios. Follow this answer to receive notifications. A react native component for touch based drawing supporting ios and android. Of course you can save as image. React native sketch might be what you are looking for:</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/reactnativeexample.com/content/images/2019/01/react-native-sketch-canvasz.png" alt="A React Native component for drawing by touching on both" title="A React Native component for drawing by touching on both" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: reactnativeexample.com</center>
+<p>A React Native component for drawing by touching on both, In my app, after use selects an image from gallery, he needs to black out some part of it. Can serialize path data to json. Using that, you can draw a polyline from your gesture data with the following implementation: Stroke thickness and color are changable while drawing. A react native component for touch based drawing supporting ios and android.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/reactnativeexample.com/content/images/2019/01/react-native-sketch-canvas.png" alt="A React Native component for drawing by touching on both" title="A React Native component for drawing by touching on both" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: reactnativeexample.com</center>
+<p>A React Native component for drawing by touching on both, Can serialize path data to json. Stroke thickness and color are changable while drawing. Ting is a flexible react native theme, best suited for developing online marketplaces and hospitality service apps for both android and ios. Add the canvas and initialize the context React native expo friendly screen drawing component based on html canvas for android &amp; ios.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/YQ2wVMc.jpg" alt="terrylinla/reactnativesketchcanvas npm" title="terrylinla/reactnativesketchcanvas npm" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: npmjs.com</center>
+<p>terrylinla/reactnativesketchcanvas npm, A react native component for touch based drawing supporting ios and android. Function to draw a line; In my app, after use selects an image from gallery, he needs to black out some part of it. Archiving this repository because i haven�t had the resources to maintain it for a while. There are 2 other projects in.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/1.bp.blogspot.com/-PfAIAEwTveQ/XGaZ9q2E67I/AAAAAAAACck/Q6gBHr_yoNMhmoYAbxLcsUzLjNztx-evgCLcBGAs/w1200-h630-p-k-no-nu/canvas.png" alt="React Native Sketch Canvas Android or IOS Example SKPTRICKS" title="React Native Sketch Canvas Android or IOS Example SKPTRICKS" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: skptricks.com</center>
+<p>React Native Sketch Canvas Android or IOS Example SKPTRICKS, A react native component for touch based drawing supporting ios and android. Add the canvas and initialize the context; Stroke thickness and color are changable while drawing. A react native component for drawing by touching on both ios and android. There’s so much to discover and build, and it can be a fun journey.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/opengraph.githubassets.com/30a8b4d4b8fe03feb714eae21bf24b7b9765a34b3fe3723e6f4e74bb4a22f0d5/wwimmo/react-native-sketch-image" alt="GitHub wwimmo/reactnativesketchimage A React Native" title="GitHub wwimmo/reactnativesketchimage A React Native" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: github.com</center>
+<p>GitHub wwimmo/reactnativesketchimage A React Native, Basic touch based drawing for both ios and android. React native expo friendly screen drawing component based on html canvas for android &amp; ios. And one wrapper component called paper which serves as a canvas on which these primitives are drawn. React native sketch might be what you are looking for: A react native component for touch based drawing supporting.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/ryid9u15NYA/maxresdefault.jpg" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, Function sketch() { return (  &lt;ellipse position={{ x: You place a real checkbox, decide how it should fit in the layout, then connect it to some real data, make it interactive. Stroke thickness and color are changable while drawing. Export default () =&gt;  create account  const styles = stylesheet.create({ button: Steps to draw a line on canvas.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/LM5sXmh.jpg" alt="A React Native component for drawing by touching on both" title="A React Native component for drawing by touching on both" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: morioh.com</center>
+<p>A React Native component for drawing by touching on both, Can undo strokes one by one. Export default () =&gt;  create account  const styles = stylesheet.create({ button: Follow this answer to receive notifications. Pass in style/size to draw. Add the canvas and initialize the context</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/g2uJ9s8.png" alt="reactnativesketchdraw npm" title="reactnativesketchdraw npm" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: npmjs.com</center>
+<p>reactnativesketchdraw npm, And one wrapper component called paper which serves as a canvas on which these primitives are drawn. Sometimes, before you can start panning for. React native is the wild west. Generally, its hidden when the user is not using it, but we can make it appear to the screen just by swiping our finger from the screen’s edge or either.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/3184/1*-1ySXSbYBPZS8F2tnhJqyw.jpeg" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, In react studio you don�t draw a picture of a checkbox. 👆 draw with your finger, and export an image from it. Create real apps, not just drawings. React native autografo ⭐ 4. Pass in style/size to draw.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/cdn-images-1.medium.com/max/1200/1*jc4f-rJRGBbpeM4E2NOR4A.png" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, Of course you can save as image. React native component allowing a user to draw their signature with their finger in a realistic style. React native is the wild west. For example draw a black line where there are some names or signatures. Or download the apk file.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/6720/1*tAo9AW8Y-1r_dyxqM4-zzA.png" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, There’s so much to discover and build, and it can be a fun journey. And one wrapper component called paper which serves as a canvas on which these primitives are drawn. You are going to need something like a canvas to draw lines instead of pixels (with views). 🎨 react native sketch [unmaintained] ⚠️ note [12/08/2021]: For example draw a.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/reactnativeexample.com/content/images/2020/04/React-Native-Reanimated-Canvas.png" alt="A reactnative component designed especially for" title="A reactnative component designed especially for" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: reactnativeexample.com</center>
+<p>A reactnative component designed especially for, 🎨 react native sketch [unmaintained] ⚠️ note [12/08/2021]: This component was written to fulfill the following use cases: So it can sync other devices or someone else and continue to edit. Function to draw a line; Of course you can save as image.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/miro.medium.com/max/1400/1*rjGU-wb3Lx9nTag07OxEsA.png" alt="React Native Overlapping Components by Karthik" title="React Native Overlapping Components by Karthik" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: medium.com</center>
+<p>React Native Overlapping Components by Karthik, A react native component for drawing by touching on both ios and android. Pass in style/size to draw. In my app, after use selects an image from gallery, he needs to black out some part of it. Download the expo app and scan this qr code to get started. React native autografo ⭐ 4.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/K2tCYNR.png" alt="reactnativesketchdraw npm" title="reactnativesketchdraw npm" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: npmjs.com</center>
+<p>reactnativesketchdraw npm, This react native component for drawing by touching support on both ios and android. Download the expo app and scan this qr code to get started. React native autografo ⭐ 4. Of course you can save as image. Can undo strokes one by one.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/react-native.shop/elements.jpg" alt="[Download 27&#43;] Sketch App React Native Software Design Baju" title="[Download 27&#43;] Sketch App React Native Software Design Baju" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: softwaredesignbaju.blogspot.com</center>
+<p>[Download 27+] Sketch App React Native Software Design Baju, Steps to draw a line on canvas. Draw on image with only js code. Answered aug 8 �19 at 11:40. Archiving this repository because i haven�t had the resources to maintain it for a while. Stroke thickness and color are changable while drawing.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/res.cloudinary.com/hl8zoliad/raw/upload/npm/react-native-drawing-canvas-adam2.png" alt="reactnativedrawingcanvasadam2 npm package Snyk" title="reactnativedrawingcanvasadam2 npm package Snyk" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: snyk.io</center>
+<p>reactnativedrawingcanvasadam2 npm package Snyk, There are 2 other projects in. Draw on image with only js code. Animated countdown timer, drawn using canvas. A react native component for touch based drawing supporting ios and android. Draw 1d barcodes to canvas.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.stack.imgur.com/KEn8R.png" alt="javascript Drawing in React native Stack Overflow" title="javascript Drawing in React native Stack Overflow" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: stackoverflow.com</center>
+<p>javascript Drawing in React native Stack Overflow, Draw on image with only js code. There’s so much to discover and build, and it can be a fun journey. Archiving this repository because i haven�t had the resources to maintain it for a while. In react studio you don�t draw a picture of a checkbox. Create your own named svg icon set.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i1.wp.com/reactscript.com/wp-content/uploads/2016/05/React-Native-Sketch-Pad-Component.jpg" alt="React Native Sketch Pad Component Reactscript" title="React Native Sketch Pad Component Reactscript" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: reactscript.com</center>
+<p>React Native Sketch Pad Component Reactscript, Follow this answer to receive notifications. Create real apps, not just drawings. Function to draw a line; Generally, its hidden when the user is not using it, but we can make it appear to the screen just by swiping our finger from the screen’s edge or either by touching the drawer icon. Download the expo app and scan this qr.</p>
+<p><img loading="lazy" width="100%" src="https://pictwallp.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.imgur.com/4qpiX8m.png" alt="terrylinla/reactnativesketchcanvas npm" title="terrylinla/reactnativesketchcanvas npm" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';" class="center" /></p>
+<center>Source: npmjs.com</center>
+<p>terrylinla/reactnativesketchcanvas npm, Of course you can save as image. Basic touch based drawing for both ios and android. React native sketch canvas android or ios examplepost link : Animated countdown timer, drawn using canvas. Or download the apk file.</p>
+
+
+
+            </article>
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/sketch-drawing/drawings-cute-sketches/">&laquo;&laquo;&nbsp;Cartoon Drawings Cute Sketches for Beginner</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/sketch-drawing/family-drawing-3-kids-sketch/">Unique Family Drawing 3 Kids Sketch for Kindergarten&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Related Article</span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/sketch-lion-pencil-drawing/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/e6/5b/37/e65b3735800ef5230c55786d1ace6766.jpg" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/sketch-lion-pencil-drawing/">Creative Sketch Lion Pencil Drawing for Beginner</a>
+                        </h2>
+                        <small class="text-muted">Dec 26 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/lemur-monkey-sketch-drawing/"><img height="80" src="/img/placeholder.svg" data-src="https://thumbs.dreamstime.com/b/lemur-raised-legs-sitting-paws-sketch-vector-graphic-monochrome-drawing-114997919.jpg" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/lemur-monkey-sketch-drawing/">Animal Lemur Monkey Sketch Drawing for Kindergarten</a>
+                        </h2>
+                        <small class="text-muted">Nov 13 . 8 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/drawing-sketch-in-the-street/"><img height="80" src="/img/placeholder.svg" data-src="http://3.bp.blogspot.com/_PN5bPPwpKsc/TVF5qGNjKFI/AAAAAAAAABE/3mAIlw-9D2A/s1600/paris&#43;sketch&#43;street.jpg" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/drawing-sketch-in-the-street/">Simple Drawing Sketch In The Street for Kindergarten</a>
+                        </h2>
+                        <small class="text-muted">Dec 02 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/sketch-draw-and-paint-play-store/"><img height="80" src="/img/placeholder.svg" data-src="https://lh5.ggpht.com/XP0pQEDU8RpbEqXseDpwrMdgyp4BV-HutqSjGyo2FnJXTLi8SfTmTRM1gpnCxwON0A=h900" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/sketch-draw-and-paint-play-store/">Cute Sketch Draw And Paint Play Store </a>
+                        </h2>
+                        <small class="text-muted">Dec 03 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/how-to-draw-a-dolphine-sketch/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/59/cc/a4/59cca4a9b5df14c6d3cb1d79a61c751f.jpg" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/how-to-draw-a-dolphine-sketch/">Cartoon How To Draw A Dolphine Sketch for Kids</a>
+                        </h2>
+                        <small class="text-muted">Feb 16 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/building-sketch-drawing-software/"><img height="80" src="/img/placeholder.svg" data-src="https://images.edrawmax.com/images/floor-plan-maker/floor-plan-maker.png" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/building-sketch-drawing-software/">Simple Building Sketch Drawing Software </a>
+                        </h2>
+                        <small class="text-muted">Sep 25 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/criminal-sketch-artist-drawing/"><img height="80" src="/img/placeholder.svg" data-src="https://i1.wp.com/memolition.com/wp-content/uploads/2014/06/amazing-criminal-sketch-artist-that-solved-over-1000-crimes-86271.jpg?fit=650%2C376" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/criminal-sketch-artist-drawing/">Simple Criminal Sketch Artist Drawing for Beginner</a>
+                        </h2>
+                        <small class="text-muted">Oct 24 . 10 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/sleeping-beauty-drawing-sketch/"><img height="80" src="/img/placeholder.svg" data-src="http://drawdoo.com/wp-content/themes/blogfolio/themify/img.php?src=http://drawdoo.com/wp-content/uploads/tutorials/Princesses/lesson18/step_11.png&amp;amp;w=665&amp;amp;h=&amp;amp;zc=1&amp;amp;q=60&amp;amp;a=t" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/sleeping-beauty-drawing-sketch/">Simple Sleeping Beauty Drawing Sketch for Kids</a>
+                        </h2>
+                        <small class="text-muted">Mar 06 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/github-a-neural-representation-of-sketch-drawings/"><img height="80" src="/img/placeholder.svg" data-src="https://opengraph.githubassets.com/1767ab414c5a98327075f001f1ed86b275d4890869ecd55883011a45d1a00578/fjcamillo/Neural-Representation-of-Logic-Functions" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/github-a-neural-representation-of-sketch-drawings/">Simple Github A Neural Representation Of Sketch Drawings with simple drawing</a>
+                        </h2>
+                        <small class="text-muted">Oct 31 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/sketch-drawing/sketch-chainsaw-drawing/"><img height="80" src="/img/placeholder.svg" data-src="https://thumbs.dreamstime.com/z/chainsaw-vector-drawing-new-big-cyan-hacksaw-device-gear-isolated-white-background-wood-timber-workers-freehand-bright-color-74566169.jpg" onerror="this.onerror=null;this.src='https:\/\/pictwallp.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/sketch-drawing/sketch-chainsaw-drawing/">Unique Sketch Chainsaw Drawing for Kindergarten</a>
+                        </h2>
+                        <small class="text-muted">Oct 07 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://pictwallp.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://pictwallp.github.io/sketch-drawing/">Sketch Art Drawing</a> Copyright &copy; 2022.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+
+
+<script type="text/javascript">
+var sc_project=12673169; 
+var sc_invisible=1; 
+var sc_security="7426f851"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12673169/0/7426f851/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+
+  </body>
+</html>
